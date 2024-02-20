@@ -1,55 +1,16 @@
-/* Reset default margins and padding */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #E8EAF6; /* Light indigo background */
-    color: #283593; /* Dark indigo text color */
-    margin: 20px;
+    font-family: Verdana, sans-serif;
+    color: #0000FF; /* Bleu IKEA */
 }
 
-.tab-container {
-    width: 80%;
-    margin: 20px auto;
-}
-
-.tab-button {
-    background-color: #3949AB; /* Darker indigo for tab buttons */
-    color: #FFFFFF; /* White text color for tab buttons */
-    padding: 10px 20px;
-    cursor: pointer;
-    display: inline-block;
-    border: 2px solid #303F9F; /* Slightly darker border for tab buttons */
-    border-radius: 4px;
-    margin-right: 10px;
-}
-
-.tab-button:hover {
-    background-color: #303F9F; /* Dark indigo on hover */
-}
-
-.tab-button.active {
-    background-color: #1A237E; /* Active tab button color */
-}
-
-.tab-content {
-    background-color: #FFFFFF; /* White background for tab content */
-    padding: 20px;
-    border: 2px solid #303F9F; /* Slightly darker border for tab content */
-    border-radius: 4px;
+.tab {
     display: none;
 }
 
-/* Style the links (not in the original content but for reference) */
-a {
-    color: #303F9F; /* Link color */
-    text-decoration: none;
-    font-weight: bold;
+.hidden {
+    display: none;
 }
 
-a:hover {
-    text-decoration: underline;
+h1, h2 {
+    color: #000000; /* Noir */
 }
